@@ -4,6 +4,8 @@ I go by Branch here. I founded Dexter so people can own and grow businesses run 
 
 I’m building **Dexter Account** so owners can change agents and financial providers while keeping the business’s assets, obligations and history. The owner chooses future services and where available capital goes. An accepted commitment binds everyone with authority over its backing, including the owner. Dexter can earn a fee for arranging and settling the purchase while someone else earns the interest. [Dexter Account and the private beta](https://docs.dexter.cash/docs/)
 
+I built a bridge so Solana could verify World ID enrollments against the registry on World Chain. Ten days after someone enrolled in July, Solana checked their proof against the earlier registry root and upgraded the same credit record. [World Chain bridge and mainnet proofs](https://github.com/Dexter-DAO/world-chain-bridge/blob/main/README.md)
+
 In our local financing demo, a lender sells its right to repayment before the supplier collects. The supplier still gets paid under the original terms. The account blocks a second sale of the same claim and rejects repayment to the former lender. [Financing work with Dexter Account](https://github.com/Dexter-DAO/demos/blob/main/account-financing/README.md)
 
 I proposed Open Tabs for purchases where approval, delivery and collection happen at different times. In a bookstore demonstration I used Dexter’s own operator key to try to redirect a reserved payment. The program refused, and the approved seller collected from the same reservation. [Individual Internet-Draft](https://datatracker.ietf.org/doc/draft-sander-open-tabs-passkey/) · [Bookstore record](https://dexter.cash/mandate?case=b0ee0521-898e-828b-9c14-265bfb59216c)
